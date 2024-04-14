@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reza Shirali | Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles/global.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h3 class="title__web">Reza Shirali | Store</h3>
+      <div class="wrapper__head">
+        <a href="/auth.html" class="link__login">
+          Login
+          <i class="fa-solid fa-right-to-bracket"></i>
+        </a>
+        <a href="./dashboard.html" class="link__dashboard">
+          Dashboard
+          <i class="fa-solid fa-house"></i>
+        </a>
+      </div>
+    </header>
+    <div class="search">
+      <h1 class="title__search">Shop</h1>
+      <input class="input__box" type="text" placeholder="Search Product..." />
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="container">
+      <div class="products">
+        <span class="loader"></span>
+      </div>
+      <div class="filter">
+        <div class="title__filter">
+          <i class="fa-solid fa-sliders"></i>
+          <p class="title__caption">Categories</p>
+        </div>
+        <ul class="list__filter">
+          <li class="list__item selected">All</li>
+          <li class="list__item">Electronics</li>
+          <li class="list__item">Jewelery</li>
+          <li class="list__item">Men's Clothing</li>
+          <li class="list__item">Women's Clothing</li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="module" src="./assets/scripts/index.js"></script>
+  </body>
+</html>
